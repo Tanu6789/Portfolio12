@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <style>
+    body{
+        color:black;
+        margin:0px;
+        padding:0px;
+        background-color: rgb(130, 107, 151);
+    }
+
+    .left{
+        display:inline;
+        top: 20px;
+        left: 20px;
+        position :absolute;
+    }
+
+    .left h1{
+        color:antiquewhite;
+    }
+    .right{
+        display:block;
+        top:20px;
+        right:20px;
+        position:absolute;
+        
+    }
+
+     .navbar{
+            display: inline-block;
+        }
+        .navbar li{display: inline-block;
+            font-size:25px;
+
+        }
+        .navbar li a{
+            text-decoration: none;
+            display: inline-block;
+            padding:12px 13px ;
+            margin:12px 13px;
+            color:white;
+
+        }
+        .navbar li a:hover{
+            color:aqua;
+        }
+        .right img{
+            width:600px;
+            top: 250px;
+            right:200px;
+            position:absolute;
+        }
+        .mid{
+            
+            display:block;
+            width:fit-content;
+            
+            margin:300px 350px;
+        font-size:60px;
+           }
+
+     .btn{
+              color:black;
+              background-color: white;
+              border-radius: 6px;
+              size-adjust: 20px;    
+            
+            }
+
+.btn:hover{
+    background-color:chartreuse;
+}
+
+ </style>
+</head>
+<body>
+    <div class="left">
+<h1> Tanushree Portfolio</h1>
+    </div>
+    <div class="right">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">projects</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <img src="img/pexels-thisisengineering-3861958.jpg" alt="">
+
+    </div>
+    <div class="mid">
+        My Name is <br>
+        <snap>Tanushree</snap> <br>
+          I'm a Web<br>
+           Developer.<br>
+           <button class="btn">Resume</button>
+
+    </div>
+
+</body>
+</html>
